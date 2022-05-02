@@ -1,0 +1,117 @@
+* {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: sans-serif;
+    }
+    
+    .footer__section {
+        margin-top: 112px;
+        height: 657px;
+        background: #316099;
+    }
+    .footer__container {
+        max-width: 1366px;
+        margin: 0 auto;
+    }
+    .team__block {
+        padding: 91px 0 96px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .team__block--header {
+        padding-bottom: 32px;
+        width: 340px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+    .team__block--text {
+        width: 494px;
+        height: 80px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+    .team__block--button {
+        width: 236px;
+        height: 56px;
+        background: #5A98D0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        vertical-align: middle;
+        letter-spacing: 0.04em;
+        border: 0px;
+        color: #FFFFFF;
+    }
+    .footer__line {
+        opacity: 0.4;
+        border: 1px solid #FFFFFF;
+    }
+    .contact__block {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact__block--list {
+        padding-top: 64px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact__block--element {
+        width: 316.98px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .contact__block--copy {
+        margin-top: 64px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    @media(max-width: 1024px){
+        .container {
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+
+
+        .content__block{
+            background-position: right 280px;
+        }
+    }
+
+    @media (max-width: 687px) {
+
+        .content__block{
+            padding-top: 24px;
+        }
+        .content__block--header{
+            font-size: 32px;
+            line-height: 37px;
+            margin-bottom: 12px;
+        }
+
+        .content__block--text{
+            width: 100%;
+            text-align: center; 
+        }
+    }
